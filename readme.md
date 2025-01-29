@@ -31,6 +31,8 @@ npx cypress open
 ## ✅ Test Case Documentation
 - The test cases are documented in the `cypress/support/fixtures` folder.
 
+=======
+>>>>>>> origin/main
 ## 💻 Test Report
 - I implemented automated tests using Cypress following the Page Object pattern, which enhances the project's scalability and code reusability.
 - I chose not to use Cucumber for writing test cases, as I believe it would add an unnecessary layer of complexity. The key focus is to keep tests highly readable for easy understanding, and given this, I don’t see the need for Cucumber.
