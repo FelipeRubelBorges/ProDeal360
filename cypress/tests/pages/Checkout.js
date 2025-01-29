@@ -1,5 +1,6 @@
 export class Checkout {
 
+    // get element to fill the checkout form
     checkoutForm(firstName, lastName, postalCode) {
         cy.get(".checkout_info").should("be.visible");
         cy.get("#first-name").type(firstName);
@@ -9,6 +10,7 @@ export class Checkout {
 
     }
 
+    // get element to submit the purchase
     SubmitPurchase(target) {
         cy.url().should("include", "/checkout-step-two.html");
         cy.get("#finish").click();
@@ -16,6 +18,7 @@ export class Checkout {
         cy.get('[data-test="complete-header"]').should("have.text", target);
     }
 
+    // get element to logout
     Logout() {
         cy.get("#react-burger-menu-btn").click();
         cy.get("#logout_sidebar_link").click();
