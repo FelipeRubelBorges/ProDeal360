@@ -1,0 +1,11 @@
+node_modules/  
+package-lock.json  
+yarn.lock
+cypress/screenshots/  
+cypress/videos/  
+cypress/downloads/  
+cypress/results/  
+cypress/reports/
+cypress/config.json  
+.env  
+.env.*  
