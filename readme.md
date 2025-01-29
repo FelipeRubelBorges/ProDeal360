@@ -12,6 +12,8 @@ Repository for the automated testing project using Cypress for ProDeal360.
 
 1. Clone the repository and install dependencies
 ```
+https://github.com/FelipeRubelBorges/ProDeal360.git
+```
 npm install cypress --save-dev
 ```
 
