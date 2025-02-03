@@ -1,6 +1,6 @@
 ## 🤘 About
 
-Repository for the automated testing project using Cypress for ProDeal360.
+Repository for the automated testing project using Cypress.
 
 ## 💻 Technologies
 - Node.js
